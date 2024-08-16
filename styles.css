@@ -32,7 +32,8 @@ a:hover {
     text-decoration: underline; /* Underline on hover */
 }
 
-img{
-    height: 20px;
-    height:auto;
+img {
+    max-height: 20px;
+    width: auto;
 }
+
