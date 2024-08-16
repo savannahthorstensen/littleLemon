@@ -1,35 +1,85 @@
-* {
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff; 
+    padding: 1rem 0;
+}
+
+.littleLemon img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem; 
+}
+
+.navbar li {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-html {
-    font-size: 16px; /* 1rem = 16px */
-}
-
-body {
-    font-family: Arial, sans-serif; 
-    font-size: 1rem; /* Base font size */
-    line-height: 1.5; 
-    color: #333; /* black */
-    background-color: #ffefcd /* Light background color */
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.5rem; /* Spacing below headings */
-    font-weight: bold; /* Bold headings */
-}
-
-/* Links */
-a {
+.navbar a {
     color: #007bff; /* Link color */
     text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem; /* Add padding */
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+/* Main content section styling */
+.section {
+    padding: 2rem 1rem;
+    text-align: center; 
+}
+
+/* Column layout */
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between columns */
+    flex-wrap: wrap; /* Wrap columns on small screens */
+    padding: 2rem 1rem;
+}
+
+.column {
+    flex: 1;
+    max-width: 300px; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for boxes */
+    border-radius: 8px; /* Optional: rounded corners */
+    overflow: hidden;
+    background-color: #fff; /* Background color for boxes */
+    text-align: center;
+    padding: 1rem;
+}
+
+.column img {
+    width: 100%; 
+    height: auto;
+    border-bottom: 1px solid #ddd; 
+}
+
+.column p {
+    padding: 1rem 0;
 }
 
 
