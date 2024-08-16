@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* 1rem = 16px */
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 1rem; /* Base font size */
+    line-height: 1.5; 
+    color: #333; /* black */
+    background-color: #ffefcd /* Light background color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem; /* Spacing below headings */
+    font-weight: bold; /* Bold headings */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+img{
+    height: 20px;
+    height:auto;
+}
