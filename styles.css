@@ -62,6 +62,18 @@ article {
     margin-bottom: 2rem;
 }
 
+/* ad section */
+.lemon-ad {
+    width: 100%;
+    text-align: center;
+}
+
+.lemon-ad {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Flex container and items */
 .flex-container {
     display: flex;
