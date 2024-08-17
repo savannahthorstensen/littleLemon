@@ -20,7 +20,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff; 
     padding: 1rem 0;
 }
 
