@@ -52,10 +52,12 @@ header {
     text-decoration: underline; /* Underline on hover */
 }
 
-/* Main content section styling */
-.section {
-    padding: 2rem 1rem;
-    text-align: center; 
+section {
+    display: flex;
+}
+
+article{
+    flex: 1;
 }
 
 /* Column layout */
