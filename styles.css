@@ -75,35 +75,37 @@ article {
 }
 
 /* Flex container and items */
-.flex-container {
-    display: flex;
-    justify-content: space-between; /* space items evenly */
-    flex-wrap: nowrap; /* Ensure items do not wrap to the next line */
-}
+ .flex-container {
+     display: flex;
+     gap: 1rem; /* Space between items */
+ }
 
-/* Individual flex items */
-.flex-item {
-    flex: 1; /* Ensure items grow to fill the space equally */
-    margin: 0 10px; /*spacing between items */
-}
+ .flex-item {
+     flex: 1 1 calc(33.333% - 1rem); 
+     max-width: calc(33.333% - 1rem); 
+     box-sizing: border-box; 
+ }
 
-/* images and text properly aligned within flex items */
-.flex-item img {
-    max-width: 100%; /* Make sure images don't overflow */
-    height: auto; /* Maintain aspect ratio */
-}
+ .flex-item .row {
+     display: flex;
+     flex-direction: column; 
+     gap: 1rem; /* Space between images and text */
+     border-radius: 8px; /* Rounded corners */
+     overflow: hidden;
+     background-color: #E09132; /* Background color for boxes */
+     text-align: center;
+     padding: 1rem;
+ }
 
-.flex-item p {
-    text-align: center; /* Center text below images */
-}
+ .flex-item img {
+     width: 100%; 
+     height: auto;
+     object-fit: cover; /*image covers area without distortion */
+ }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .flex-item {
-        flex: 1 1 calc(50% - 1rem); /* Two items per row on medium screens */
-        max-width: calc(50% - 1rem); 
-    }
-}
+ .flex-item p {
+     padding: 1rem 0;
+ }
 
 @media (max-width: 480px) {
     .flex-item {
