@@ -63,13 +63,13 @@ article {
 }
 
 /* Grid layout for columns */
-.columns {
+.row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* grid with columns */
+    grid-template-row: repeat(auto-fit, minmax(250px, 1fr)); /* grid with rows */
     gap: 2rem; /* Space between columns */
 }
 
-.column {
+.row {
     border-radius: 8px; /* rounded corners */
     overflow: hidden;
     background-color: #E09132; /* Background color for boxes */
@@ -77,13 +77,13 @@ article {
     padding: 1rem;
 }
 
-.column img {
+.row img {
     width: 100%; 
     height: auto;
     border-bottom: 1px solid #ddd; 
 }
 
-.column p {
+.row p {
     padding: 1rem 0;
 }
 
