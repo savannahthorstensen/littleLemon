@@ -3,7 +3,7 @@ body {
     font-size: 1rem;
     line-height: 1.5; 
     color: #333; /* Text color */
-    background-color: #FFEFCD; /* background color */
+    background-color: #FFEFCD; /* Background color */
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2 {
-     color: #A58E74
+    color: #A58E74;
 }
 
 header {
@@ -62,29 +62,44 @@ article {
     margin-bottom: 2rem;
 }
 
-/* Grid layout for columns */
-.row {
-    display: grid;
-    grid-template-row: repeat(auto-fit, minmax(250px, 1fr)); /* grid with rows */
-    gap: 2rem; /* Space between columns */
+/* Flex container and items */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 2rem; 
 }
 
-.row {
-    border-radius: 8px; /* rounded corners */
+.flex-item {
+    flex: 1 1 calc(33.333% - 2rem); /* Three items per row with spacing  */
+    box-sizing: border-box; /* padding and border */
+}
+
+.flex-item .row {
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem; /* Space between images and text */
+    border-radius: 8px; /* Rounded corners */
     overflow: hidden;
     background-color: #E09132; /* Background color for boxes */
     text-align: center;
     padding: 1rem;
 }
 
-.row img {
+.flex-item img {
     width: 100%; 
     height: auto;
     border-bottom: 1px solid #ddd; 
 }
 
-.row p {
+.flex-item p {
     padding: 1rem 0;
+}
+
+/* try */
+.row {
+    display: grid;
+    grid-template-row: repeat(auto-fit, minmax(250px, 1fr)); /* Grid with rows */
+    gap: 2rem; /* Space between columns */
 }
 
 
