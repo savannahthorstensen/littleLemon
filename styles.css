@@ -122,6 +122,34 @@ article {
         max-width: 100%; /* Ensure items don't exceed this width */
     }
 }
+/* Footer Styles */
+footer {
+    color: #fff; 
+    padding: 1rem 0; 
+}
+
+.footer-logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-info {
+    flex: 1; 
+}
+
+.footer-logo {
+    flex-shrink: 0; 
+}
+
 
 
 
