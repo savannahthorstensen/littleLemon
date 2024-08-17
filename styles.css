@@ -1,18 +1,17 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif; 
-    font-size: 1rem; /
+    font-size: 1rem;
     line-height: 1.5; 
     color: #333; /* Text color */
-    background-color: #FFEFCD; 
+    background-color: #FFEFCD; /* background color */
 }
 
-    
 .container {
     max-width: 1200px; 
     margin: 0 auto;
     padding: 0 1rem;
 }
-
 
 header {
     display: flex;
@@ -26,7 +25,6 @@ header {
     max-width: 100%; 
     height: auto;
 }
-
 
 .navbar {
     display: flex;
@@ -63,21 +61,21 @@ header {
 /* Column layout */
 .columns {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
     gap: 2rem; /* Space between columns */
-    flex-wrap: wrap; /* Wrap columns on small screens */
     padding: 2rem 1rem;
+    justify-content: center; /* Centers columns horizontally */
 }
 
 .column {
     flex: 1;
-    max-width: 300px; /* Adjust as needed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for boxes */
-    border-radius: 8px; /* Optional: rounded corners */
+    max-width: 300px; 
+    border-radius: 8px; /* rounded corners */
     overflow: hidden;
-    background-color: #fff; /* Background color for boxes */
+    background-color: #E09132; /* Background color for boxes */
     text-align: center;
     padding: 1rem;
+    min-width: 250px;
 }
 
 .column img {
@@ -89,6 +87,7 @@ header {
 .column p {
     padding: 1rem 0;
 }
+
 
 
 
