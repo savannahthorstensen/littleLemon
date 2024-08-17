@@ -123,24 +123,7 @@ article {
     }
 }
 
-/* Footer Styles */
-footer {
-    color: #fff; 
-    padding: 1rem 0; 
-}
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    max-width: 1200px; 
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-.footer-info {
-    flex: 1; 
-}
 
 
 
