@@ -122,15 +122,11 @@ article {
         max-width: 100%; /* Ensure items don't exceed this width */
     }
 }
+
 /* Footer Styles */
 footer {
     color: #fff; 
     padding: 1rem 0; 
-}
-
-.footer-logo img {
-    width: 100px; 
-    height: auto; 
 }
 
 .container {
@@ -146,9 +142,6 @@ footer {
     flex: 1; 
 }
 
-.footer-logo {
-    flex-shrink: 0; 
-}
 
 
 
