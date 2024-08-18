@@ -75,8 +75,26 @@ article {
 }
 
 .lemon-ad img {
-    border-radius: 15px; 
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
 }
+
+@media screen and (max-width: 768px) {
+    .lemon-ad img {
+        max-width: 90%; /*medium screen*/
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lemon-ad img {
+        max-width: 80%; /*small screem*/
+    }
+}
+
+
+
+
 
 
 /* Flex container and items */
