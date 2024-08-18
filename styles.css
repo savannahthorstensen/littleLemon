@@ -119,7 +119,6 @@ article {
 .footer {
     display: flex;
     justify-content: space-between; 
-    align-items: center; /* Center items vertically */
     padding: 1rem;
 }
 
