@@ -82,13 +82,13 @@ article {
 
 @media screen and (max-width: 768px) {
     .lemon-ad img {
-        max-width: 50%; /*medium screen*/
+        max-width: 70%; /*medium screen*/
     }
 }
 
 @media screen and (max-width: 480px) {
     .lemon-ad img {
-        max-width: 30%; /*small screem*/
+        max-width: 50%; /*small screem*/
     }
 }
 
