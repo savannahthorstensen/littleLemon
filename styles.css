@@ -92,6 +92,7 @@ article {
     width: calc(33.333% - 1rem); /* Set a fixed width for each item */
     max-width: none; 
     box-sizing: border-box;
+    text-align: center;
 }
 
  .flex-item .row {
