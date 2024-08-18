@@ -103,7 +103,11 @@ article {
      flex-wrap: nowrap;
      gap: 1rem; /* Space between items */
      overflow-x: auto;
- }
+     justify-content: center; /* Center boxes */
+     width: 100%; /* full width */
+     max-width: 1200px; 
+     margin: 0 auto; /* Centers the container */
+}
 
  .flex-item {
     flex: 0 0 auto; 
