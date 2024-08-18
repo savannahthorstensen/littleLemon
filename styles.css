@@ -74,6 +74,11 @@ article {
     display: block;
 }
 
+.lemon-ad img {
+    border-radius: 15px; /* Adjust the value as needed */
+}
+
+
 /* Flex container and items */
  .flex-container {
      display: flex;
