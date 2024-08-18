@@ -115,6 +115,28 @@ article {
      padding: 1rem 0;
  }
 
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Center items vertically */
+    padding: 1rem;
+}
+
+.footer-left {
+    flex: 1; 
+}
+
+.footer-right {
+    flex: 1; 
+    text-align: right; /* Align image to the right */
+}
+
+.footer-right img {
+    max-width: 100%; /* Ensure image fits within the column */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
 
 
 
