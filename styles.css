@@ -128,12 +128,12 @@ article {
 
 .footer-right {
     flex: 1; 
-    text-align: right; /* Align image to the right */
+    text-align: right; 
 }
 
 .footer-right img {
-    max-width: 100%; /* Ensure image fits within the column */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 
