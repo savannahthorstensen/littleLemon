@@ -147,7 +147,82 @@ article {
 .footer-right p {
     margin: 0;  /* Removes default paragraph margin */
 }
+/* Existing styles remain the same */
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    /* Header adjustments */
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Flex container adjustments */
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /* Footer adjustments */
+    .footer .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        margin: 10px 0;
+    }
+}
+
+
+
+/*for small screens*/
+
+@media screen and (max-width: 768px) {
+    /* Header adjustments */
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Flex container adjustments */
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    /* Footer adjustments */
+    .footer .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        padding: 0 0.5rem;
+    }
+
+    .navbar a {
+        padding: 0.3rem 0.6rem;
+    }
+}
 
 
 
