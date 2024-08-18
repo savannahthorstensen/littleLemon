@@ -116,24 +116,36 @@ article {
      padding: 1rem 0;
  }
 
+
+
+/* footer */
+
 .footer {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer .container {
     display: flex;
-    justify-content: space-between; 
-    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-left {
-    flex: 1; 
+    order: 1;  /* image is on the left */
 }
 
 .footer-right {
-    flex: 1; 
-    text-align: right; 
+    order: 2;  /* copyright on the right */
 }
 
-.footer-right img {
-    max-width: 100%; 
-    height: auto; 
+.footer-right p {
+    margin: 0;  /* Removes default paragraph margin */
 }
 
 
